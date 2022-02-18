@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <style>
+         li{
+                display:inline;
+            }
+            ul {
+           list-style-type:circle;
+           margin: 0;
+           padding: 0;
+           overflow: hidden;
+           background-color:#963f41;
+           font-size:100%;
+           word-spacing:20px; 
+            }
+            li {
+          float: left;
+          }
+
+      li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    }
+        
+            li a:hover {
+  background-color:#1f1213 ;
+            }   
+        body{
+            background-color:#963f41}
+        
+            body  {
+                
+         background-image: url('background%20lightsa.jpg');}
+        .content {
+        max-width: 800px;
+        margin: auto;
+        background:#963f41 ;
+        padding: 50px;
+        
+                }
+         h1{
+	     text-align:center;} 
+        
+        img{
+	   border-width:6px;
+	   border-style:solid;
+	   border-color:#5e2a2a;
+	   }
+	   ul{list-style-type:none;}
+       body{
+       color:white;
+	   font-family:inherit;
+	   font-weight:bold;
+	   font-size:120%;
+            }
+            
+            .absolute{
+             position: absolute
+            bottom:200px;
+            width: 40%
+           list-style-type:circle;
+            text-align:center;
+           margin:3px;
+           padding:40px;
+           overflow: hidden;
+           background-color:#292930;
+           font-size:80%;
+           word-spacing:0.5px; 
+            
+            }
+        
+            
+        
+        </style>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>homepage for review4u</title>
+        <meta name="description" content="homepage">
+        
+    </head>
+   
+    <body>
+        <ul>
+        <li><a href="homepage.html" href="#home">Home</a></li>
+       <li><a href="movies.html">Movies</a></li>
+       <li><a href="books.html">Books</a></li>
+       <li><a href="travelspots.html">Travelspots</a></li>
+     
+       <li><a href="food.html">Food</a></li>
+
+            <li><a href="form.html">Feedback</a></li>
+   
+       </ul>
+       
+        
+       
+        <section>
+        <img class="mySlides" src="oscars.jpg"
+        style="width:1510px;height:570px";>
+        <img class="mySlides" src="books.jpg"
+        style="width:1510px;height:570px";>
+        <img class="mySlides" src="trave.jpg"
+        style="width:1510px;height:570px";>
+        <img class="mySlides" src="food.jfif"
+        style="width:1510px;height:570px";>
+        </section>
+                         
+       <script>
+       // Automatic Slideshow - change image every 3 seconds
+       var myIndex = 0;
+       carousel();
+
+      function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+      }
+      myIndex++;
+     if (myIndex > x.length) {myIndex = 1}
+     x[myIndex-1].style.display = "block";
+     setTimeout(carousel, 3000);
+     }
+     </script>
+        
+
+    <div class="content">
+       
+         <h1>review4U</h1>
+        <h4>A modern platform where you can  view the million reviews of  the billion movies,books,tourist places and dishes around the world.<br><br><br> If you're in a little fix on what movie to watch ,what to read on a lazy weekend,maybe in a little confusion on what to cook for a healthy brunch or even puzzeled on where to go for summer holidays.well review4U will help you decide this choice by putting forward a wide range of choices, opinions on all these lifestyle topics.</h4>
+        </div>
+   
+    </body>
+        
+        <div class="absolute">
+        <u>copyrights by review4u.</u><br>
+       <h4> 4 topics specially curated 4 you</h4>
+        </div> 
+        
+        
+        
+         
+    
